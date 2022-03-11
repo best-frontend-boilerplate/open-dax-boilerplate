@@ -6,10 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock-server": "npm explore @openware/opendax-web-sdk -- npm run mockserver"
   },
   "dependencies": {
+    "@openware/opendax-web-sdk": "^4.0.13-alpha2",
+    "colors": "^1.4.0",
+    "header-case-normalizer": "^1.0.3",
+    "js-combinatorics": "^1.5.6",
     "next": "12.1.0",
+    "npm-run-all": "^4.1.5",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
